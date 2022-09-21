@@ -1,10 +1,11 @@
 import React from 'react';
+import * as S from './Styled'
 
 const App = () => {
   return (
-    <div>
-      <h1>Ola, bem vindes ao fluxo de trabalho</h1>
-    </div>
+    <S.Div>
+      <S.Hone>Ola, bem vindes ao fluxo de trabalho</S.Hone>
+    </S.Div>
   );
 }
 
